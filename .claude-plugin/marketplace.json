@@ -1,0 +1,15 @@
+{
+  "name": "play-console-signin",
+  "owner": {
+    "name": "mosjin",
+    "url": "https://github.com/mosjin/play-console-signin-skill"
+  },
+  "description": "填写Google Play Console的Sign in details（原App access）声明，含实测踩过的坑：必答复选框反直觉、测试审核账号创建方法。",
+  "plugins": [
+    {
+      "name": "signinpub",
+      "source": "./",
+      "description": "Play Console Sign in details声明填写流程和实测坑，含测试审核账号的创建方法。"
+    }
+  ]
+}
